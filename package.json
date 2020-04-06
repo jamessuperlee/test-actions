@@ -1,0 +1,24 @@
+{
+  "name": "test-action",
+  "version": "1.0.0",
+  "description": "Test action",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamessuperlee/test-actions.git"
+  },
+  "author": "James Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamessuperlee/test-actions/issues"
+  },
+  "homepage": "https://github.com/jamessuperlee/test-actions#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.2.7"
+  }
+}
