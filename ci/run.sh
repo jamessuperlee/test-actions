@@ -14,3 +14,9 @@ echo "Running the linter..."
 if ! docker run -t test-action npm run lint; then
     die "Failed linting"
 fi
+
+echo "Running the tests..."
+if ! docker run -t test-action npm test; then
+
+    die "Failed tests"
+fi
